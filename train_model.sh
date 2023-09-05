@@ -1,0 +1,1 @@
+lstmtraining --model_output output/ --continue_from eng_copy/eng.lstm --old_traineddata eng.traineddata --traineddata packed_lstm/eng/eng.traineddata --train_listfile eng.training_files.txt --eval_listfile eng.training_files.txt --U unicharset/my.unicharset --max_iterations 140000
